@@ -11,4 +11,3 @@ In some instances, language-specific coding conventions are not followed to make
 on the last line of a Ruby method/function the keyword 'return' is applied so that kids can see the explicit return
 rather than the implied no-return last line typical in Ruby.
 
-asdf
