@@ -18,12 +18,12 @@ module Koans
       # A method definition ends with the work 'end'. 'end' has other uses in Ruby too!
       def say_hello_world
 
-        # hello_world is a variable that holds the string value 'Hello World!'
+        # hello_world_variable is a variable that holds the string value 'Hello World!'
         hello_world_variable = 'Hello World!'
 
         # puts is a function define in Ruby that prints messages out to the console
         # for you to see. In this case we print out the contents of the variable
-        # hello_world, which is 'Hellof World!'
+        # hello_world_variable, which is 'Hello World!'
         puts hello_world_variable
 
         # Finally, we return the variable to the code that called this method. In
@@ -52,6 +52,41 @@ module Koans
 
         # return it to the calling code just like last time.
         return hello_world_variable
+      end
+
+
+      # again a method definition
+      def say_hello_to_chloe
+        # a variable holds the string
+        # BTW single quote is a static string - meaning it doesn't change
+        hello_message_variable = 'Hello Chloe!'
+        # print out the message to the console
+        puts hello_message_variable
+        # then return it so it can be used
+        return hello_message_variable
+      end
+
+      # again a method definition with one method parameter variable named 'someone_variable'
+      def say_hello_to_someone(someone_variable)
+        # a variable holds the string
+        # BTW double quote is a dynamic or interpolated string - meaning it DOES change with the variables
+        hello_message_variable = "Hello to #{someone_variable}!"
+        # print out the message to the console
+        puts hello_message_variable
+        # then return it so it can be used
+        return hello_message_variable
+      end
+
+      # again a method definition with two method parameter variables named 'to_someone_variable'
+      # and 'from_someone_variable'
+      def say_hello_to_someone_from_someone(to_someone_variable, from_someone_variable)
+        # a variable holds the string
+        # BTW double quote is a dynamic or interpolated string - meaning it DOES change with different variables the variables
+        hello_message_variable = "Hello to #{to_someone_variable}! from #{from_someone_variable}"
+        # print out the message to the console
+        puts hello_message_variable
+        # then return it so it can be used
+        return hello_message_variable
       end
 
     end
