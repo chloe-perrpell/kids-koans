@@ -34,5 +34,32 @@ describe Koans::Solutions::KidsKoans do
     end
   end
 
+  describe 'lesson 3 thing you can do with strings' do
+
+    it 'should return the lenght of a string' do
+      kids_koans = Koans::Solutions::KidsKoans.new
+      kids_koans.count_letters_in_word('phoo').should == 4
+      kids_koans.count_letters_in_word('chloe').should == 5
+    end
+
+    it 'should convert a work to all uppercase characters' do
+      kids_koans = Koans::Solutions::KidsKoans.new
+      kids_koans.to_upper_case('phoo').should == 'PHOO'
+      kids_koans.to_upper_case('chloe').should == 'CHLOE'
+    end
+
+    it 'should convert a work to all uppercase characters' do
+      kids_koans = Koans::Solutions::KidsKoans.new
+      kids_koans.to_lower_case('PHOO').should == 'phoo'
+      kids_koans.to_lower_case('CHLOE').should == 'chloe'
+    end
+
+    it 'should reverse a string' do
+      kids_koans = Koans::Solutions::KidsKoans.new
+      kids_koans.reverse_word('reverse').should == 'esrever'
+    end
+
+  end
+
 
 end

@@ -89,6 +89,40 @@ module Koans
         return hello_message_variable
       end
 
+      # Lesson 3: People have already helped you.
+      #
+      # Just like you have writting your own method hundreds and thousands have written their methods too.
+      # Some are so good that they have been shared with you. You just have to learn how to find them.
+      # So today we are going to teach you how to find ways to do things that other people have already
+      # done for you. On Google do a search for 'Ruby String length'
+      # You will see that someone has already written a method on string to do that for you.
+      #
+      # you know how to define a method with one method parameter now
+      def count_letters_in_word(word)
+        return word.length
+      end
+
+      # you know how to define a method with one method parameter now
+      # On Google do a search for 'Ruby String convert to uppercase'
+      # You will see that someone has already written a method on string to do that for you.
+      def to_upper_case(word)
+        return word.upcase
+      end
+
+      # you know how to define a method with one method parameter now
+      # On Google do a search for 'Ruby String convert to lowercase'
+      # You will see that someone has already written a method on string to do that for you.
+      def to_lower_case(word)
+        return word.downcase
+      end
+
+      # you know how to define a method with one method parameter now
+      # On Google do a search for 'Ruby String reverse'
+      # You will see that someone has already written a method on string to do that for you.
+      def reverse_word(word)
+        return word.reverse
+      end
+
     end
 
   end

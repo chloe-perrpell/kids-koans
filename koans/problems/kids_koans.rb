@@ -33,6 +33,21 @@ module Koans
         return hello_message_variable
       end
 
+      def count_letters_in_word(word_variable)
+        return word_variable.length
+      end
+
+      def to_upper_case(word_variable)
+        return word_variable.upcase
+      end
+
+      def to_lower_case(word_variable)
+        return word_variable.downcase
+      end
+
+      def reverse_word(word_variable)
+        return word_variable.reverse
+      end
 
     end
 
