@@ -7,6 +7,7 @@ describe Koans::Problems::Numbers do
     numbers = Koans::Problems::Numbers.new
     numbers.add_two_numbers(4, 5).should == 9
     numbers.add_two_numbers(3, 7).should == 10
+    numbers.add_two_numbers(45, 55).should == 100
   end
 
   it 'should subtract two numbers' do

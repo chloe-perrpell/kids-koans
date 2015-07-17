@@ -5,7 +5,7 @@ module Koans
 
       # To do these Google for 'Ruby number addition'
       def add_two_numbers(first_number_argument, second_number_argument)
-        return first_number_argument - second_number_argument
+        return first_number_argument + second_number_argument
       end
 
       # To do these Google for 'Ruby number subtraction'
